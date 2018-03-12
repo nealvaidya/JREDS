@@ -1,0 +1,756 @@
+\documentclass{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{eurosym}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Status of Fisheries in Jordan},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Status of Fisheries in Jordan}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{}
+  \preauthor{}\postauthor{}
+  \date{}
+  \predate{}\postdate{}
+
+
+\begin{document}
+\maketitle
+
+\section{Summary}\label{summary}
+
+The majority of the commercial fish catch in Jordanian fisheries is made
+up of tuna, swordfish, and sardines. These migratory, pelagic species
+are unlikely to have built a separate population in Jordan or the Gulf
+of Aqaba and are most likely part of the broader Indian Ocean stocks.
+While the swordfish stock in the Indian Ocean is not currently
+over-fished, no stock assessments exist for the other major species.
+
+In contrast, the reef fish species, which make up only a small part of
+the catch, have likely formed a separate local population. Although more
+comprehensive and detailed data is necessary to estimate the stock size
+and stock status for these species, first investigations from surveys
+show that important indicator species are heavily over-fished and that
+the stocks are nearly depleted. This conclusion is supported by the
+finding that more than A¼ of the fishing trips are ended without any
+catch.
+
+\subparagraph{Page Break}\label{page-break}
+
+\section{Acknowledgment}\label{acknowledgment}
+
+\subparagraph{Page Break}\label{page-break-1}
+
+\section{Introduction}\label{introduction}
+
+\subsection{Literature Review}\label{literature-review}
+
+\subsubsection{The Fishery Status in Jordan's Gulf of Aqaba --- Mohammad
+Al-Zibdah, Maroof Khalaf, and Nidal
+Odat}\label{the-fishery-status-in-jordans-gulf-of-aqaba-mohammad-al-zibdah-maroof-khalaf-and-nidal-odat}
+
+This study collected data from July 1999 to June 2000 on fish size and
+composition as well as the gear used and effort expended. Data was
+collected through government resources along with interviews and direct
+measurements with fishers. This data was then supplemented by Ministry
+of Agriculture documents from previous years on catch sizes. While 153
+metric tons of fish were recorded for the period in question, the
+researchers found that the catch size would fluctuate by as much as 100
+metric tons per year historically. Much of this fluctuation can be
+explained by non-environmental factors like stricter border control and
+the banning of dynamite for fishing, but heavy over-exploitation was
+observed for most species outside of tuna. Fishing trips would begin in
+the early morning around sunrise and end when either the fishers were
+satisfied with the catch or at sunset. Boats mostly remained along the
+north coastline and in Al-Mamlah Bay, where the Gulf has a biotic soft
+floor or seagrass beds. Deep sea fishing in the summer. The number of
+trips would increase in the winter when tuna populations were at their
+peak; in the summer catches mostly consisted of deep sea fishing for
+commercial species. Fishers do not utilize shellfish and other
+invertebrate species in the area. The Researchers found that only 60\%
+fishers licensed in the area actually fished, possibly because the
+shallow water and complex topography of the ocean floor make fishing
+difficult in the area. The researchers also calculated CPUE, or catch
+per unit effort, a measure of how much fish is caught per trip.
+
+\(\text{CPUE} = \frac{\text{CA}_m}{T_m * B_y}\) Where \(\text{CA}_m\) is
+the catch in Kg per month, \(T_m\) is the average number of trips per
+boat per month, and \(B_y\) is the average number of active boats per
+month.
+
+\subsubsection{Fishery Status, Growth, Reproduction Biology and Feeding
+Habit of Two Scombrid Fish from the Gulf of Aqaba, Red Sea (2007) ---
+Mohammad Al-Zibdah and Nidal
+Odat}\label{fishery-status-growth-reproduction-biology-and-feeding-habit-of-two-scombrid-fish-from-the-gulf-of-aqaba-red-sea-2007-mohammad-al-zibdah-and-nidal-odat}
+
+Zibdah and Odat used surveys and physical analysis to determine the
+characteristics of two important fish species in the Gulf of Aqaba:
+\emph{Katsuwonus pelamis} (Skipjack Tuna, \emph{Arabic Name}) and
+\emph{Euthnnys affinis} (mackerel tuna, \emph{Arabic Name}.) They found
+that these two species together make up about 60\% of the total catch
+from Aqaba and that the Scombridae family in general made up 91\% of the
+catch from about 50 trips each day. Catch totals were estimated from
+monthly records kept by authorities. Some of the catch of each species
+was also analyzed by the researchers to determine physical and
+behavioral characteristics. Physical characteristics of the fish
+indicated that only mature fish migrated into the area and that the
+quality and abundance of food were inadequate. The bulk of each species'
+consumption comes from other small fish, often \emph{Atherinomorus
+lacunosus}. The rates of mortality revealed that both species are being
+heavily exploited by fishers, at roughly equal rates. Movement patterns
+also indicated that the population crosses international boundaries,
+making proper management between countries vital to ensure the
+sustainability of the fishery.
+
+\subsubsection{Fish Fauna of the Jordanian Coast, Gulf of Aqaba, Red Sea
+(2004) --- Maroof
+Khalaf}\label{fish-fauna-of-the-jordanian-coast-gulf-of-aqaba-red-sea-2004-maroof-khalaf}
+
+Khalaf aimed to take an inventory of the fish present in the Gulf of
+Aqaba and display the diversity found in the region. This study found a
+total of 507 fish species belonging to 109 families, 65 of which
+(12.8\%) were endemic to the Gulf. Inventories were obtained from 4
+sources: species collected or deposited at the Marine Science Station in
+Aqaba, the collection of the Sencknberg Museum Frankfurt, the catch of
+fishers between 1995 and 2002, and previous species reported in
+literature about the Gulf. Fish were photographed and measured by marine
+station staff, both after being caught and in their habitats during a
+visual census. The Gulf showed a high level of diversity despite its
+small size, potentially due to the presence of various environments like
+sandy flats, coral reefs, and seagrass meadows. 51\% of the species
+lived in coral and boulders while 8.3\% lived in the sea grass. Two
+species had also migrated into the Gulf from the Mediterranean Sea, and
+three invasive species were observed from inland aquaculture projects.
+In total, 76 species were identified as present in the Gulf for the
+first time.
+
+\subsubsection{Fish Assemblages in seagrass habitat along the Jordanian
+coast of the Gulf of Aqaba (2012) --- Maroof A. Khalaf, Saber Al-Rousan,
+Fuad A.
+Al-Horani}\label{fish-assemblages-in-seagrass-habitat-along-the-jordanian-coast-of-the-gulf-of-aqaba-2012-maroof-a.-khalaf-saber-al-rousan-fuad-a.-al-horani}
+
+This study surveyed three seagrass meadows in the Gulf of Aqaba,
+identified as the â\euro{}Hotels Area,â\euro{}™ â\euro{}Phosphate
+Loading Berth,' and â\euro{}Tala Bay.â\euro{}™ Of 507 total species
+known in the Gulf of Aqaba, 132 species (26\%) were identified in these
+seagrass areas. 19.7\% of these species were from the family Labridae,
+and 8.33\% were Pomacentridae, with the top 8 families making up 56.82\%
+of species. In total, 37,034 fish were counted, with Lethrinidae making
+up 30.5\%, Pomacentridae 28.7\%, Serranidae 15.4\%, and the top 7
+families total making up 90.0\%. The study also found that seagrass acts
+as a nursery for the fish and that when there is more coral cover, more
+species inhabit the seagrass.
+
+\subsubsection{FAO Jordan Fishery Report
+(2003)}\label{fao-jordan-fishery-report-2003}
+
+The UN Food and Agriculture Organization prepared a report in 2003 on
+the structure and prospects of the fishing industry in Jordan. The FAO
+found 85 fishermen employed on 40 boats, with a total catch from 2001 of
+170t. Of the 2001 catch, 65\% were tuna. The organization also found
+that the number of fishers had been static in over a period of years,
+and that developmental prospects were very limited. In 2003 domestic
+fishing made up a small portion of Jordanian fish consumption, at around
+2\%, with the vast majority coming from imports. The FAO also found
+limited management measures for fisheries in Jordan despite some
+limitations on fishing methods. Because the important commercial species
+in Jordan extend beyond Jordanian borders, the FAO recommends regional
+cooperation for marine environmental management.
+
+\subsection{The Gulf of Aqaba; an
+Overview}\label{the-gulf-of-aqaba-an-overview}
+
+\subsubsection{Location}\label{location}
+
+The Gulf of Aqaba is a semi-enclosed water basin in the Middle East,
+extending from the northern tip of the Red Sea. It connects to the Red
+Sea through the Straits of Tiran, between Sinai and Tiran Island. It is
+opposite the Gulf of Suez, across the Sinai Peninsula. The Gulf borders
+four countries: Saudi Arabia, Jordan, Israel, and Egypt through the
+Sinai Peninsula. The Gulf of Aqaba is Jordan's only access to the ocean,
+as well as Israel's only access to the Red Sea. As such, the cities of
+Aqaba and Eilat (in Jordan and Israel respectively) occupy roles as
+important port cities. Other minor port cities also exist, like Taba in
+Egypt and Haql in Saudi Arabia.
+
+The Gulf of Aqaba has a length of 170km, with an average width of 15km
+and an average depth of 800m (maximum depth 1800m.) The Jordanian
+coastline extends for about 27km along the Gulf. It consists of a series
+of embayments with a broad range of communities present in each,
+including rocky shore, reef flat, reef face, fore reef, sandy shore,
+sandy bottom and sea grass ecosystems (Tellawi 2001). The Gulf's
+ecological importance stems from its location as a bridge between Africa
+and Eurasia.
+
+\subsubsection{Climate}\label{climate}
+
+\subsubsection{Sea Characteristics}\label{sea-characteristics}
+
+The Gulf of Aqaba is marked by a relative lack of stormy weather, which
+along with mild water currents and relatively high salinity levels,
+provides a suitable environment for the growth of corals and countless
+varieties of marine-life forms. The water of the Jordanian coastline is
+clear, with high transparency and little wave action throughout the
+year. The poor freshwater influx has led to a poor supply of minerals
+salts and nutrients such as nitrogen or phosphorus compounds which left
+planktonic primary production very low. This characteristic is supported
+by a water temperature ranging from 21A°C in winter to 27A°C in summer;
+shallow coastal areas may reach as high as 29 A°C during the warm
+months.
+
+\subsubsection{Species Diversity}\label{species-diversity}
+
+Between 161 (Tellawi 2001) and 507 (M. Khalaf 2004) different species of
+fish have been documented in the Jordanian part of the Gulf of Aqaba.
+These include species with possible local populations (e.g.~groupers and
+lionfish) as well as migratory species such as tuna and swordfish. Most
+of the fish species present in Jordan (82.8\%) are associated with
+benthic habitats such as corals and rocks (M. Khalaf 2004).
+
+Sound data on the status of the fish stocks in Jordan has been mostly
+unavailable. While some investigations have been made (Al-Zibdah and
+Odat 2007), no comprehensive stock assessments have been provided.
+
+\subsection{Current status of fishing at
+Aqaba}\label{current-status-of-fishing-at-aqaba}
+
+\subsubsection{ASEZA establishment}\label{aseza-establishment}
+
+The Aqaba Special Economic Zone Authority was established in 2001 to
+promote investment and tourism in the Aqaba area. ASEZA was created to
+provide certain tax incentives and spur development, and consequently,
+many large development projects have begun in and around the city. An
+important part of the ASEZA goals is the relocation of the main port
+further from the city, which could have dramatic impacts on the
+fisheries of the northern gulf.
+
+\subsubsection{Aqaba marine park}\label{aqaba-marine-park}
+
+The Aqaba marine park was established in 1997 as a protected area,
+covering 7km of coastline 350m into the water. The park has different
+zones that allow for various levels of access, with some opened to
+public recreation and others closed except to permitted researchers. All
+zones of the park are closed to fishing, because of the presences of
+coral reef ecosystems in the area. The park is commonly used for diving,
+and about 80\% of marine recreation in Aqaba takes place in the park.
+
+\subsection{Efforts performed for fishing in the red
+sea}\label{efforts-performed-for-fishing-in-the-red-sea}
+
+\subsection{Strategic direction of
+Aqaba}\label{strategic-direction-of-aqaba}
+
+ASEZA has outlined a master plan for future zoning of the locations in
+and around the city of Aqaba. In addition to the relocation mentioned
+above of the main port, new zones will be created for tourism,
+residential life, and heavy industry. The goal of the new coastal
+residential areas is to consolidate more scattered development, to
+reduce the spread of marine damage. Similarly, the industrial zone will
+be placed near the Saudi Arabian border, separated topographically from
+the coastal developments. Transportation infrastructure is also being
+constructed to increase access, chiefly through the expansion of the
+airport as well as the shift from industrial to personal transport at
+ports near the city.
+
+\subparagraph{Page Break}\label{page-break-2}
+
+\section{Methods}\label{methods}
+
+Mapping --- identification of fishing areas\\
+Semi-structured Questionnaire
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Fishermen
+\item
+  Local and touristic Restaurants
+\end{enumerate}
+
+Socio-economic survey\\
+Database establishment
+
+The data gathered by JREDS between November 2014 and November 2015 is
+the first continuous data collection effort to cover nearly the entire
+commercial fishing operation in Aqaba. Data on landings, species, gear
+and fishing area are collected by questionnaires directly from the
+fishermen in the harbor (Appendix 1). The questionnaires have been
+developed by referencing those used by the FAO for the project
+â\euro{}œScientific and Institutional Cooperation to Support Responsible
+Fisheries in the Eastern Mediterranean â\euro{}`` EastMedâ\euro{} in
+Egypt and Lebanon. The collected data include the date, duration,
+location, the fishing method used and the estimated weight and number of
+the catch by species. The data is stored in a specially developed
+database hosted by JREDS and is regularly analyzed for misreporting and
+false entries. All catch is documented by pictures, so misidentification
+of species can be easily recognized.
+
+\subparagraph{Page Break}\label{page-break-3}
+
+\section{Results}\label{results}
+
+\subsection{Fishing Areas}\label{fishing-areas}
+
+In order to determine the most active fishing areas in the Jordanian
+part of the Gulf of Aqaba, fishermen were surveyed upon return to shore.
+Each fisherman indicated what location he had gone to that day, and the
+results were aggregated to determine what places were most popular.
+Figure 1 displays the locations, while figure 2 displays their relative
+activity. The most popular locations were the Old Power Station and the
+nearby Container Port, with 1091 (32\% of total) and `1006 (29\% of
+total) trips respectively. These locations indicated are known to have
+biotic, soft floors, along with seagrass beds and algal communities
+(Al-Zibdah, Khalaf, and Odat 2006). The fishermen tend to stay near the
+city, with few trips taking place in areas closer to the southern
+border.
+
+Catch Per Unit Effort (CPUE) was calculated for each fishing area, where
+\(\text{CPUE}=\frac{\text{Kg. of Fish}}{\text{Number of Trips}}\) per
+area.
+
+While the CPUE for each location does appear to have a positive
+relationship with activity, the correlation is not very strong. We
+expect that for every increase of 1kg of catch per unit effort in an
+area, trips to that location will be multiplied by 1.11. However, this
+only accounts for roughly 19\% of the variation in activity for the
+regions.
+
+In general, the fishermen have no access to fishing waters outside
+Jordan. Even inside Jordanâ\euro{}™s boundaries, large areas are closed
+to fishing. For example, fishing is prohibited within 350 meters of the
+shore along the 4-km coast containing the Aqaba Marine Park area;
+fishing is also banned within 500 m of the port areas as well as south
+of the Tala Bay resort. Consequently, more than 65\% of all fishing
+operations concentrate on three fishing areas off the coast.
+
+\begin{figure}
+\centering
+\includegraphics{aqabamapsmall.png}
+\caption{Figure 1}
+\end{figure}
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/fishing_area-1.pdf}
+Figure 2
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/unnamed-chunk-1-1.pdf}
+Figure 3
+
+\begin{longtable}[]{@{}lrrrr@{}}
+\toprule
+& Estimate & Std. Error & t value &
+Pr(\textgreater{}\textbar{}t\textbar{})\tabularnewline
+\midrule
+\endhead
+Intercept & 1.7393060 & 1.2783495 & 1.360587 & 0.2008705\tabularnewline
+ln(\emph{CPUE}) & 0.1002301 & 0.0623748 & 1.606902 &
+0.1363769\tabularnewline
+\bottomrule
+\end{longtable}
+
+\emph{R\textsuperscript{2} = 0.1901126}
+
+Table 1
+
+\subsection{Fishing Gear}\label{fishing-gear}
+
+Overall, 84\% of fishing trips used lines as part of their equipment,
+compared to 21\% for nets and 6\% for cages. Of the major fishing areas
+(\textgreater{}50 trips during the time period) only Gandour had
+significantly less line usage (at 15\%) along with the Container Port
+(at 82\%.) 32\% of all fishing trips returned with no catch. That number
+is 32\% for trips using lines, but jumps to 61\% for nets and 45\% for
+cages (Figure 3).
+
+Controlling for fishing location, both cages and nets are correlated
+with less catch weight, with cages seeing a change of -15.73kg
+{[}(-22.97, -8.49), p = 0.000021{]} and nets seeing a change of -7.34kg
+{[}(-11.03, -3.65), p = 0.000097{]} respectively. This suggests that
+lines are more effective than other gear for total catch weight,
+providing a possible reason for their overwhelming usage over nets and
+cages.
+
+By looking at the breakdown of which species are targeted by each
+method, we can also see a difference in the use cases of each type of
+gear. Nets are used to target small fish, such as those belonging to the
+Carangidae, Clupeidae, and Caesionidae families, where large numbers but
+low total weights are caught. Meanwhile, lines are used to capture
+larger fish, like those in the Scombridae, Xiphiidae, Istiophoridae
+families, along with the Chondrichthyes. Cages were used more sparingly,
+mostly for fish in the Siganidae family.
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/gear_results-1.pdf}
+Figure 4
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/unnamed-chunk-3-1.pdf}
+
+\subsection{Species}\label{species}
+
+In total, information from 3452 fishing trips was collected and
+analyzed. The grand total catch from December 01, 2014 to November 30,
+2015 was 80522 kg, made up of fffffff. Of all the fishing trips, 32\%
+caught no fish. The most abundant family in terms of number was
+Carangidae, with 37649 individuals caught (42\%,) followed by Clupeidae
+with 21720 (24\%,) together making up 66\% of all specimens caught.
+However, they make up a much smaller portion of the total catch weight
+over the period, at 10122kg (12.6\%) and 1310kg (1.6\%) respectively, or
+14.2\% together. Instead, a majority of the total catch weight was made
+up of Scombridae with 41618kg (52\%) followed by Xiphiidae with 18955kg
+(24\%) making up 75\% together.
+
+A total of 11432 kg of Sardines and Sardine-like species were caught in
+250 trips. Of these, 7757 kg (68\%) were caught opposite to the
+container port. A total of 41618 kg of tuna species were caught, in 881
+trips. The total catch for swordfish was 18955kg, 5005kg for sailfish,
+and 1966kg for sharks. In contrast, the local populations of reef fish
+species are making up only a small part of the catch (under 1\% each),
+less than 1600 Kg per year.
+
+11448kg of fish were caught in November, of which 8311kg (73\%) were
+Tuna species, and 692kg (6\%) were sardine species. 5919kg of fish were
+caught in December, of which 3761kg (64\%) were Tuna species, and 694kg
+(12\%) were sardine species. 2303kg of fish were caught in May, of which
+1330kg (58\%) were Tuna species, and 463kg (20\%) were sardine species.
+9813kg of fish were caught in October, of which 7113kg (72\%) were Tuna
+species, and 53kg (1\%) were sardine species. 15934kg of fish were
+caught in January, of which 11390kg (71\%) were Tuna species, and 3479kg
+(22\%) were sardine species. 5518kg of fish were caught in February, of
+which 3162kg (57\%) were Tuna species, and 1817kg (33\%) were sardine
+species. 1577kg of fish were caught in June, of which 0kg (0\%) were
+Tuna species, and 67kg (4\%) were sardine species. 6741kg of fish were
+caught in August, of which 540kg (8\%) were Tuna species, and 544kg
+(8\%) were sardine species. 4352kg of fish were caught in April, of
+which 2854kg (66\%) were Tuna species, and 1052kg (24\%) were sardine
+species. 5664kg of fish were caught in September, of which 1423kg (25\%)
+were Tuna species, and 225kg (4\%) were sardine species. 3935kg of fish
+were caught in March, of which 1684kg (43\%) were Tuna species, and
+1905kg (48\%) were sardine species. 7318kg of fish were caught in July,
+of which 50kg (1\%) were Tuna species, and 441kg (6\%) were sardine
+species.
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/heatmap-1.pdf}
+
+\subsection{Time}\label{time}
+
+Trips are more frequent during the winter, which corresponds to the
+months where trips are most likely to be successful. However, the
+relationship with CPUE and month is less direct, which is highest in the
+late fall and in January. Trips are most frequent on Mondays and drop
+drastically on Fridays and Saturdays. The distribution of trip returns
+range from 11 am to midnight, with peaks times of 1 pm and 7 pm.
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/Time Plot-1.pdf}
+
+\includegraphics{C:/Users/nealv/AppData/Local/Temp/RtmpolQI0A/file86103eee1600_files/figure-latex/p succesful-1.pdf}
+
+\subparagraph{Page Break}\label{page-break-4}
+
+\section{Discussion}\label{discussion}
+
+\subsection{Fisheries and stock
+status}\label{fisheries-and-stock-status}
+
+As the data from the fisheries itself does not yet allow for a
+comprehensive assessment of the stock size and fishing status, these
+properties must be estimated from other sources. For the pelagic species
+which make up the majority of the catch, it can be assumed that no
+separate Jordanian population exists and that they are part of the
+broader Red Sea stock. Additionally, the swordfish caught in Jordan are
+most likely part of the Indian Ocean stock. The Indian Ocean swordfish
+is currently not overfished, and the biomass is close to the maximum
+sustainable yield threshold (BMSY).
+
+According to earlier investigations, the tuna catch mostly consists of
+three species. The most common are the Skipjack (\emph{Katsuwonis
+pelamis}) and the Kawakawa (\emph{Euthynnus affinis}). Minor catches
+consist of Yellowfin tuna (\emph{Thunnus albacares}), Dogtooth tuna
+(\emph{Gymnosarda unicolor}) and Longtail tuna (\emph{Thunnus tonggol})
+(Al-Zibdeh 2007). All of the tuna are taken from a larger migrating
+population, of which only a small part migrates to Jordan. The sardines
+and mackerels, which form another important component of the catch, are
+also most likely part of a bigger population in the Red Sea and not a
+local fish stock. Separate stock assessments for these species in the
+Red Sea do not yet exist.
+
+In contrast to the most important commercially fished species, which are
+migratory and pelagic, the reef fish species which make only a small
+part of the landings are local populations. Although the gathered data
+does not yet allow for an estimation of stock size and fishing status,
+first conclusions can be drawn from ReefCheck Surveys, carried out by
+the Aqaba Marine Park during the PERSGA project in 2008 and by JREDS in
+2015. These surveys focus on indicator species to give a rough
+estimation of important reef fish populations.
+
+The snapper was selected as an indicator species because of its
+importance as a culinary fish that is caught by nets near reefs. Average
+snapper abundance for the whole region was 22.4A±19.34 fish per 100
+m\textsuperscript{2} reef, but no snappers were found in Jordan in 2006,
+2008 (PERSGA 2010) and 2015 (JREDS 2015).
+
+Parrotfish were selected as an indicator of over-fishing of various
+kinds. Between 1.25 fish per 100m\textsuperscript{2} reef (PERSGA 2010)
+and 1.8 fish per 100m\textsuperscript{2} reef (JREDS 2015) were found in
+surveys of the area. This is lower than in Egypt (2.13 fish per
+100m\textsuperscript{2} reef) and Saudi Arabia (2.24 fish per
+100m\textsuperscript{2} reef) (PERSGA 2010).
+
+Butterflyfish of the family Chaetodontidae are taken as indicators for
+over-fishing (they are often bycatch in reef fisheries), ornamental fish
+trade and reef health. In Jordan, around 6.88A±1.24 fish per
+100m\textsuperscript{2} were counted in 2006 and 2008 (PERSGA 2010)(Kotb
+2010) and 8.9A±1.33 fish per 100m\textsuperscript{2} (JREDS 2015), lower
+than in the Indo-Pacific region (10 fish per 100m\textsuperscript{2}
+reef) and Indonesia (18 fish per 100m\textsuperscript{2} reef). The
+abundances in Egypt were lower (6.23A±0.69 fish per
+100m\textsuperscript{2}) and in Saudi Arabia were higher (8.22A±0.36
+fish per 100m\textsuperscript{2}) (PERSGA 2010)(Kotb 2010). The
+abundance of Chaetodontid was reported as 11.75 fish per
+100m\textsuperscript{2} reef in 5m depth and 10.40 fish per
+100m\textsuperscript{2} reef in 1981 (Bouchon-Navaro
+1981)({\textbf{???}}).
+
+Sweetlips (\emph{Haemulidae}) were taken as an indicator for
+overfishing, as they are one of the most popular fish species. In the
+Indo-Pacific, \textless{}1 fish per 100m\textsuperscript{2} were found,
+in Indonesia around four fish per 100m\textsuperscript{2}. No sweetlips
+were found during any surveys in Jordan. 0.64A±0.07 fish per
+100m\textsuperscript{2} were found in Egypt and 1.09A±0.03 fish per
+100m\textsuperscript{2} in Saudi Arabia (PERSGA 2010)(Kotb 2010).
+
+Grouper above a 30cm length of any species serve as an indicator for
+overfishing of all types. Jordan has very low values at 0.25A±0.12 fish
+per 100m\textsuperscript{2}(PERSGA 2010) (Kotb 2010) in 2006 and 2008;
+no grouper were found in the 2015 survey (JREDS 2015). This is in
+contrast to Egypt with 0.75A±0.35 fish per 100m\textsuperscript{2} and
+Saudi Arabia with 1.03A±0.20 fish per 100m\textsuperscript{2}. The
+recorded abundance from Red Sea reefs during 1997-2001 (average:
+1.15A±1.3 fish per 100m\textsuperscript{2}) and from the Indo-Pacific
+region was much higher (0.45A±0.98 fish per 100m\textsuperscript{2})
+(PERSGA 2010) (Kotb 2010).
+
+The results of the surveys suggest that the local reef fish populations
+are heavily overfished. This is supported by the findings of the current
+fisheries data collection, which shows that for the first time about
+33\% of the fishermen come back from the sea without any catch.
+
+Annual fish production in Jordan is also highly variable. Previous
+research has shown that production in 1999 was 450 metric tons, while
+production in 1998 comprised 120 metric tons (Kotb 2010). 2015 saw a
+production of 80.5 metric tons, smaller than in previous years on
+record. Previous studies also do not indicate the major presence of
+Swordfish (Xiphiidae) in the Jordanian catch (Al-Zibdah, Khalaf, and
+Odat 2006), yet currently, Xiphiidae make up 23.5\% of the catch weight.
+Meanwhile, the share of tuna has dropped from 60.3\% in 1999/2000 to 52
+in 2015 (Al-Zibdah, Khalaf, and Odat 2006).
+
+\section{Recommendations}\label{recommendations}
+
+\subsection{Recommendations for
+Management}\label{recommendations-for-management}
+
+\subsection{Recommendations for Public Awareness and
+Education}\label{recommendations-for-public-awareness-and-education}
+
+\subsection{Recommendations for
+Research}\label{recommendations-for-research}
+
+\subparagraph{Page Break}\label{page-break-5}
+
+\section{Appendix I - Table of
+Species}\label{appendix-i---table-of-species}
+
+\begin{longtable}[]{@{}llrrrrr@{}}
+\toprule
+Common Name & Scientific Name (If Available) & Family & Weight (kg) & \%
+of Total & Number Caught & \% of Total\tabularnewline
+\midrule
+\endhead
+Amberjack & Seriola spp. & Carangidae & 70 & 0.09 & 7 &
+0.01\tabularnewline
+Barracuda & Sphyraena spp. & Sphyraenidae & 8 & 0.01 & 2 &
+0.00\tabularnewline
+Blacktip Grouper & Epinephelus fasciatus & Serranidae & 8 & 0.01 & 27 &
+0.03\tabularnewline
+Blue Skinned Seabream & Polysteganus coeruleopunctatus & Sparidae & 170
+& 0.21 & 617 & 0.69\tabularnewline
+Bluespotted Cornetfish & Fistularia commersonii & Fistulariidea & 4 &
+0.00 & 7 & 0.01\tabularnewline
+Calmar Squid & Sepioteuthis lessoniana & Loliginidae & 66 & 0.08 & 15 &
+0.02\tabularnewline
+Common Dolphinfish & Coryphaena hippurus & Carangidae & 447 & 0.56 & 99
+& 0.11\tabularnewline
+Common Silver Body & Gerres oyena & Gerreidae & 5 & 0.01 & 35 &
+0.04\tabularnewline
+Dogtooth Tuna & Gymnosarda unicolor & Scombridae & 75 & 0.09 & 10 &
+0.01\tabularnewline
+Goatfish & Parupeneus spp. & Mullidae & 164 & 0.20 & 1795 &
+2.00\tabularnewline
+Goggle Eye & Priacanthus hamrur & Priacanthidae & 4 & 0.00 & 35 &
+0.04\tabularnewline
+Grouper & Variola louti & Serranidae & 213 & 0.26 & 616 &
+0.69\tabularnewline
+Indian Scad & Decapterus russelli & Carangidae & 5 & 0.01 & 50 &
+0.06\tabularnewline
+Lizardfish & NA & Synodontidae & 4 & 0.00 & 2 & 0.00\tabularnewline
+Longtail Tuna & Thunnus tonggol & Scombridae & 150 & 0.19 & 16 &
+0.02\tabularnewline
+Mackerel Scad & Decapterus macarellus & Carangidae & 9569 & 11.88 &
+37487 & 41.76\tabularnewline
+Marbled Spinefoot & Siganus rivulatus & Siganidae & 243 & 0.30 & 2644 &
+2.95\tabularnewline
+Narrowbarred Spanish Mackarel & Scomberomorus commerson & Scombridae &
+40 & 0.05 & 4 & 0.00\tabularnewline
+Orange-spotted Jack & Carangoides bajad & Carangidae & 29 & 0.04 & 5 &
+0.01\tabularnewline
+Parrotfish & Scarus spp. & Scaridae & 42 & 0.05 & 308 &
+0.34\tabularnewline
+Pomfrette & Taractichthys steindachneri & Bramidae & 119 & 0.15 & 40 &
+0.04\tabularnewline
+Round Herring & Etrumeus teres & Clupeidae & 808 & 1.00 & 14860 &
+16.55\tabularnewline
+Sailfish & Istiophorus spp. & Istiophoridae & 5005 & 6.22 & 1452 &
+1.62\tabularnewline
+Sardine & Herklotsichthys quadrimaculatus & Clupeidae & 502 & 0.62 &
+6860 & 7.64\tabularnewline
+Shark & NA & Chondrichthyes & 1966 & 2.44 & 783 & 0.87\tabularnewline
+Snake Mackerel & Thyrsitoides spp. & Gempylidae & 88 & 0.11 & 51 &
+0.06\tabularnewline
+Soldierfish & NA & Holocentridae & 86 & 0.11 & 843 & 0.94\tabularnewline
+Spangled Emperor & Lethrinus nebulosus & Lethrinidae & 52 & 0.06 & 89 &
+0.10\tabularnewline
+Swordfish & Xiphias gladius & Xiphiidae & 18955 & 23.54 & 4888 &
+5.44\tabularnewline
+Tuna & NA & Scombridae & 40212 & 49.94 & 9133 & 10.17\tabularnewline
+Unicorn Fish & Naso spp. & Acanthuridae & 2 & 0.00 & 1 &
+0.00\tabularnewline
+Variegated Emperor & Lethrinus variegatus & Lethrinidae & 55 & 0.07 &
+246 & 0.27\tabularnewline
+Yellowfin Tuna & Thunnus albacares & Scombridae & 1141 & 1.42 & 63 &
+0.07\tabularnewline
+Yellowspotted Jack & Carangoides fulvoguttatus & Carangidae & 2 & 0.00 &
+1 & 0.00\tabularnewline
+Yellowtail Fusilier & Caesio spp. & Caesionidae & 213 & 0.26 & 6685 &
+7.45\tabularnewline
+\bottomrule
+\end{longtable}
+
+Total Number of Unique Species Identified: 33
+
+\subparagraph{Page Break}\label{page-break-6}
+
+\subsection*{References}\label{references}
+\addcontentsline{toc}{subsection}{References}
+
+\hypertarget{refs}{}
+\hypertarget{ref-RN18}{}
+Al-Zibdah, Mohammed, and Nidal Odat. 2007. ``Fishery Status, Growth,
+Reproduction Biology and Feeding Habit of Two Scombrid Fish from the
+Gulf of Aqaba, Red Sea.'' Journal Article. \emph{Lebanese Science
+Journal} 8 (2).
+
+\hypertarget{ref-RN28}{}
+Al-Zibdah, Mohammed, Maroof Khalaf, and Nidal Odat. 2006. ``The Fishery
+Status in Jordan's Gulf of Aqaba, Red Sea.'' Journal Article.
+\emph{Dirasat: Pure Sciences} 33 (1): 127--42.
+
+\hypertarget{ref-RN35}{}
+Bouchon-Navaro, Y., and M. L. Harmelin-Vivien. 1981. ``Quantitative
+Distribution of Herbivorous Reef Fishes in the Gulf of Aqaba (Red
+Sea).'' Journal Article. \emph{Marine Biology} 63 (1): 79--86.
+doi:\href{https://doi.org/10.1007/bf00394665}{10.1007/bf00394665}.
+
+\hypertarget{ref-RN15}{}
+FAO. 2003. ``Fisheries Fao.'' Journal Article.
+
+\hypertarget{ref-RN9}{}
+Khalaf, Maroof. 2004. ``Fish Fauna of the Jordanian Coast, Gulf of
+Aqaba, Red Sea.'' Journal Article. \emph{JKAU: Marine Science} 15.
+
+\hypertarget{ref-RN8}{}
+Khalaf, Maroof A., Saber Al-Rousan, and Fuad A. Al-Horani. 2012. ``Fish
+Assemblages in Seagrass Habitat Along the Jordanian Coast of the Gulf of
+Aqaba.'' Journal Article. \emph{Natural Science} 04 (08): 517--25.
+doi:\href{https://doi.org/10.4236/ns.2012.48069}{10.4236/ns.2012.48069}.
+
+\hypertarget{ref-RN29}{}
+Kotb, Dr. Mohammed M.A. 2010. ``The Status of Coral Reefs in the Red Sea
+and Gulf of Aden: 2009.'' Report. The Regional Organization for the
+Conservation of the Environment of the Red Sea; Gulf of Aden (PERSGA).
+
+\hypertarget{ref-RN34}{}
+Tellawi, Dr. Abdelmuti M. 2001. ``First National Report of the Hashemite
+Kingdom of Jordan on the Implementation of Article 6 of the Convention
+on Biological Diversity.'' Report. The Hashemite Kingdom of Jordan.
+
+
+\end{document}

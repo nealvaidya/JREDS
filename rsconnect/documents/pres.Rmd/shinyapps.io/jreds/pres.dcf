@@ -1,0 +1,11 @@
+name: pres
+title: pres
+account: jreds
+server: shinyapps.io
+appId: 200271
+bundleId: 920128
+url: https://jreds.shinyapps.io/pres/
+when: 1501322390.58528
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: AppReport.Rmd
